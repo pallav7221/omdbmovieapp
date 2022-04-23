@@ -1,0 +1,47 @@
+#container{
+    text-align: center;
+    margin: 30px;
+    
+}
+#container>input{
+    padding: 12px;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+#container>#button{
+    background-color: black;
+    color: white;
+}
+#container>#button:hover {
+    background-color:teal;
+    color: white;
+    cursor: pointer;
+}
+#details{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+}
+#details>div{
+  
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+    padding: 4px;
+}
+#details>div{
+    text-align: center;
+}
+#details>div>h1{
+    font-size: 50px;
+}
+#details>div>p{
+    font-size: 25px;
+}
